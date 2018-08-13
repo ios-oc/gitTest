@@ -1,0 +1,686 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		057418C433B913BAC478375AECE06BF1 /* LGSideMenuHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = CA9426E77451098D66C35512F347C3F7 /* LGSideMenuHelper.m */; };
+		100586E484BAE467C65584975C50679F /* UIViewController+LGSideMenuController.h in Headers */ = {isa = PBXBuildFile; fileRef = 04193EE2518EF4AAA45E0B944B1C64A2 /* UIViewController+LGSideMenuController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		141F6797522D0C38D0FF35023377F3B0 /* LGSideMenuSegue.h in Headers */ = {isa = PBXBuildFile; fileRef = 519CC1E1FC9FA6772236D17D61FC6BF0 /* LGSideMenuSegue.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		267C7E498318F48575B8DB19F3ADF1A8 /* LGSideMenuHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 77190AF56A401A581278002293414A6E /* LGSideMenuHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		34F3406252A6DDC06F4DF99FBB2A4093 /* LGSideMenuController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FE38BE0BE1BB8D0DE75F84798CD3528B /* LGSideMenuController-dummy.m */; };
+		38BB48D3CB5403DA9373E928F3763E39 /* LGSideMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 978AEF475D57F87B95CABD1454A6C3EC /* LGSideMenuController.m */; };
+		40193C0B4D88F726E2A766A2513CB8FD /* LGSideMenuBorderView.h in Headers */ = {isa = PBXBuildFile; fileRef = C260B3331408908CBCD8BEA4B406B09F /* LGSideMenuBorderView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		463F4FA5B164756FF41D198EC04BB966 /* UIViewController+LGSideMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10AD5350CE167549A5C8D7AB00CAFBD6 /* UIViewController+LGSideMenuController.m */; };
+		4741F8ED7798B375CC6F95F5C075D635 /* LGSideMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A58A26988464B77DCD7F32A9523992 /* LGSideMenuView.m */; };
+		7A16CD641399D76C648ECB61B814416C /* Pods-Demo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DCA944E1D5D966DBCA7EB7C661855A95 /* Pods-Demo-dummy.m */; };
+		8293E73AC81FFEEFBD13ECD18FA63867 /* LGSideMenuView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5ACF37B00A793AFD78AB7A9508B3A04E /* LGSideMenuView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9A1ECCC28DCB4B4A8027FDA86C98BD66 /* LGSideMenuSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 0337DDB7CB7C06217457D2F1ADEB3FF2 /* LGSideMenuSegue.m */; };
+		9F732FB35D317FE1C8504F58CE0120B6 /* LGSideMenuController.h in Headers */ = {isa = PBXBuildFile; fileRef = 50F05AD3057C54F9F836F23607B91EAE /* LGSideMenuController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BB72524539130D85F8ED141B7465D4BB /* LGSideMenuGesturesHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A22A9F14D434FA56A151F291A8A364B /* LGSideMenuGesturesHandler.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C82F0B9430691D82B9AE3F18930AA6D0 /* LGSideMenuGesturesHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 7300951BE44EB90E5F2C045DA40955D0 /* LGSideMenuGesturesHandler.m */; };
+		E4CD8C58421A30DD1AADC3A82A02822B /* LGSideMenuBorderView.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC8D712BB20BA985FBBF1CE04C743F3 /* LGSideMenuBorderView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9F53E975F51673CBA847E998EF33EC4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F04308B37C9E61BFBF26E8A6103375A;
+			remoteInfo = LGSideMenuController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0337DDB7CB7C06217457D2F1ADEB3FF2 /* LGSideMenuSegue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGSideMenuSegue.m; path = LGSideMenuController/LGSideMenuSegue.m; sourceTree = "<group>"; };
+		04193EE2518EF4AAA45E0B944B1C64A2 /* UIViewController+LGSideMenuController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+LGSideMenuController.h"; path = "LGSideMenuController/UIViewController+LGSideMenuController.h"; sourceTree = "<group>"; };
+		0AA4CC1D789DA2783447C62D0F699C77 /* Pods-Demo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Demo-acknowledgements.plist"; sourceTree = "<group>"; };
+		10AD5350CE167549A5C8D7AB00CAFBD6 /* UIViewController+LGSideMenuController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+LGSideMenuController.m"; path = "LGSideMenuController/UIViewController+LGSideMenuController.m"; sourceTree = "<group>"; };
+		19E1884E616EDFCF69940E8AD4DD0819 /* UMCommonLog.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = UMCommonLog.bundle; path = UMCommonLog/UMCommonLog.bundle; sourceTree = "<group>"; };
+		240CFBB73CF0318733BB700BF6531505 /* UMAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UMAnalytics.framework; sourceTree = "<group>"; };
+		2460C34D5A45E81A5B1EFEAD0E615FEF /* JPUSHService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JPUSHService.h; sourceTree = "<group>"; };
+		31DAD1F056EFEB0370B014E73DCE82D4 /* libLGSideMenuController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libLGSideMenuController.a; path = libLGSideMenuController.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C2411E39D4217315A4A074460EB75B1 /* libPods-Demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Demo.a"; path = "libPods-Demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		50F05AD3057C54F9F836F23607B91EAE /* LGSideMenuController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGSideMenuController.h; path = LGSideMenuController/LGSideMenuController.h; sourceTree = "<group>"; };
+		519CC1E1FC9FA6772236D17D61FC6BF0 /* LGSideMenuSegue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGSideMenuSegue.h; path = LGSideMenuController/LGSideMenuSegue.h; sourceTree = "<group>"; };
+		56A58A26988464B77DCD7F32A9523992 /* LGSideMenuView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGSideMenuView.m; path = LGSideMenuController/LGSideMenuView.m; sourceTree = "<group>"; };
+		57016A3D9B424502BAF7796CAA2C7EB4 /* libjcore-ios-1.2.0.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = "libjcore-ios-1.2.0.a"; sourceTree = "<group>"; };
+		5ACF37B00A793AFD78AB7A9508B3A04E /* LGSideMenuView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGSideMenuView.h; path = LGSideMenuController/LGSideMenuView.h; sourceTree = "<group>"; };
+		5DADE1E0EF999CBB79F91703598C9ABE /* UMCommonLog.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UMCommonLog.framework; path = UMCommonLog/UMCommonLog.framework; sourceTree = "<group>"; };
+		66A816584CEA46C242EFA9D49052172C /* UMCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UMCommon.framework; sourceTree = "<group>"; };
+		690FB383F5A758BA863E25F7E8AC4743 /* libjpush-ios-3.0.9.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = "libjpush-ios-3.0.9.a"; sourceTree = "<group>"; };
+		6F5DD532ECDA969984034D51B0F56454 /* Pods-Demo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Demo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7300951BE44EB90E5F2C045DA40955D0 /* LGSideMenuGesturesHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGSideMenuGesturesHandler.m; path = LGSideMenuController/LGSideMenuGesturesHandler.m; sourceTree = "<group>"; };
+		77190AF56A401A581278002293414A6E /* LGSideMenuHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGSideMenuHelper.h; path = LGSideMenuController/LGSideMenuHelper.h; sourceTree = "<group>"; };
+		7895F539B8D31A30E5A23762FA195745 /* LGSideMenuController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LGSideMenuController.xcconfig; sourceTree = "<group>"; };
+		7E61E2F2E514A86FEC211F0AD10D8AC1 /* Pods-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		854C0AE1BD7C08C34014B0F43B6C2D0F /* UTDID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UTDID.framework; path = thirdparties/UTDID.framework; sourceTree = "<group>"; };
+		8A22A9F14D434FA56A151F291A8A364B /* LGSideMenuGesturesHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGSideMenuGesturesHandler.h; path = LGSideMenuController/LGSideMenuGesturesHandler.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		978AEF475D57F87B95CABD1454A6C3EC /* LGSideMenuController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGSideMenuController.m; path = LGSideMenuController/LGSideMenuController.m; sourceTree = "<group>"; };
+		A45834D84D8366A3A60665397F59A220 /* UMErrorCatch.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UMErrorCatch.framework; sourceTree = "<group>"; };
+		BA98EAACDAFB971DF9EDCF9DEA28BE22 /* Pods-Demo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Demo-frameworks.sh"; sourceTree = "<group>"; };
+		BC6F318B8C726435B2FF8566E7AC50B9 /* Pods-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Demo.release.xcconfig"; sourceTree = "<group>"; };
+		BEC8D712BB20BA985FBBF1CE04C743F3 /* LGSideMenuBorderView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGSideMenuBorderView.m; path = LGSideMenuController/LGSideMenuBorderView.m; sourceTree = "<group>"; };
+		C260B3331408908CBCD8BEA4B406B09F /* LGSideMenuBorderView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGSideMenuBorderView.h; path = LGSideMenuController/LGSideMenuBorderView.h; sourceTree = "<group>"; };
+		C4A6ADD2C4B2A31F8AE141143E5396BC /* LGSideMenuController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LGSideMenuController-prefix.pch"; sourceTree = "<group>"; };
+		CA9426E77451098D66C35512F347C3F7 /* LGSideMenuHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGSideMenuHelper.m; path = LGSideMenuController/LGSideMenuHelper.m; sourceTree = "<group>"; };
+		D25544B348B28F2BBA3D9053B844D7D4 /* Pods-Demo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Demo-resources.sh"; sourceTree = "<group>"; };
+		DCA944E1D5D966DBCA7EB7C661855A95 /* Pods-Demo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Demo-dummy.m"; sourceTree = "<group>"; };
+		DDB0A614B3EB73D1DD346D2F08A1D401 /* SecurityEnvSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SecurityEnvSDK.framework; path = thirdparties/SecurityEnvSDK.framework; sourceTree = "<group>"; };
+		FE38BE0BE1BB8D0DE75F84798CD3528B /* LGSideMenuController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LGSideMenuController-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		111A9E1F0485D60A60B03AEC4C4DEFD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D841832BF85F1FF4B429FD4157E53D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		105A24935BC6A33BE66754CE51C36C31 /* Pods-Demo */ = {
+			isa = PBXGroup;
+			children = (
+				6F5DD532ECDA969984034D51B0F56454 /* Pods-Demo-acknowledgements.markdown */,
+				0AA4CC1D789DA2783447C62D0F699C77 /* Pods-Demo-acknowledgements.plist */,
+				DCA944E1D5D966DBCA7EB7C661855A95 /* Pods-Demo-dummy.m */,
+				BA98EAACDAFB971DF9EDCF9DEA28BE22 /* Pods-Demo-frameworks.sh */,
+				D25544B348B28F2BBA3D9053B844D7D4 /* Pods-Demo-resources.sh */,
+				7E61E2F2E514A86FEC211F0AD10D8AC1 /* Pods-Demo.debug.xcconfig */,
+				BC6F318B8C726435B2FF8566E7AC50B9 /* Pods-Demo.release.xcconfig */,
+			);
+			name = "Pods-Demo";
+			path = "Target Support Files/Pods-Demo";
+			sourceTree = "<group>";
+		};
+		36097117F7F91081A12707DD0B7FDD11 /* UMCCommon */ = {
+			isa = PBXGroup;
+			children = (
+				7E8BBA2C940F37D76E44063BC4AAA04F /* Frameworks */,
+			);
+			name = UMCCommon;
+			path = UMCCommon;
+			sourceTree = "<group>";
+		};
+		3702C8A78188AC8A5D35017CD169C37A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DE414E153BA45149234DC28D38EB6A03 /* JCore */,
+				44599B64D7D07176ECC0DDFAF62E6E69 /* JPush */,
+				9DAEDF85361110642F6D55FB97A8B8D5 /* LGSideMenuController */,
+				94906869167C1489ABA4766ECF782107 /* UMCAnalytics */,
+				36097117F7F91081A12707DD0B7FDD11 /* UMCCommon */,
+				D6218DD3042A0E572E4D82D120A96F3F /* UMCCommonLog */,
+				96733A120B6E85442D95663AB4DE68E6 /* UMCErrorCatch */,
+				7491AD2C888ECE2FE8903BC242DBDC87 /* UMCSecurityPlugins */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		44599B64D7D07176ECC0DDFAF62E6E69 /* JPush */ = {
+			isa = PBXGroup;
+			children = (
+				2460C34D5A45E81A5B1EFEAD0E615FEF /* JPUSHService.h */,
+				DCE11D355635208B854E6936E5D53D08 /* Frameworks */,
+			);
+			name = JPush;
+			path = JPush;
+			sourceTree = "<group>";
+		};
+		63D99DA601AAD23FEA48A5B35840029D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				19E1884E616EDFCF69940E8AD4DD0819 /* UMCommonLog.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7491AD2C888ECE2FE8903BC242DBDC87 /* UMCSecurityPlugins */ = {
+			isa = PBXGroup;
+			children = (
+				EAA5BC117BF23208CEAB9E19CF8D10D3 /* Frameworks */,
+			);
+			name = UMCSecurityPlugins;
+			path = UMCSecurityPlugins;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
+				3702C8A78188AC8A5D35017CD169C37A /* Pods */,
+				D8D2DE615218F5DB351B1FCB840AC98D /* Products */,
+				F64792801741A31D953EA71E1A34CBCA /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7E8BBA2C940F37D76E44063BC4AAA04F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				66A816584CEA46C242EFA9D49052172C /* UMCommon.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		94906869167C1489ABA4766ECF782107 /* UMCAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				9D2CB1C0661A4EDFF6F64821655CA578 /* Frameworks */,
+			);
+			name = UMCAnalytics;
+			path = UMCAnalytics;
+			sourceTree = "<group>";
+		};
+		96733A120B6E85442D95663AB4DE68E6 /* UMCErrorCatch */ = {
+			isa = PBXGroup;
+			children = (
+				D216EE8F4F9E696AD96556BCD8870290 /* Frameworks */,
+			);
+			name = UMCErrorCatch;
+			path = UMCErrorCatch;
+			sourceTree = "<group>";
+		};
+		9D2CB1C0661A4EDFF6F64821655CA578 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				240CFBB73CF0318733BB700BF6531505 /* UMAnalytics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9DAEDF85361110642F6D55FB97A8B8D5 /* LGSideMenuController */ = {
+			isa = PBXGroup;
+			children = (
+				C260B3331408908CBCD8BEA4B406B09F /* LGSideMenuBorderView.h */,
+				BEC8D712BB20BA985FBBF1CE04C743F3 /* LGSideMenuBorderView.m */,
+				50F05AD3057C54F9F836F23607B91EAE /* LGSideMenuController.h */,
+				978AEF475D57F87B95CABD1454A6C3EC /* LGSideMenuController.m */,
+				8A22A9F14D434FA56A151F291A8A364B /* LGSideMenuGesturesHandler.h */,
+				7300951BE44EB90E5F2C045DA40955D0 /* LGSideMenuGesturesHandler.m */,
+				77190AF56A401A581278002293414A6E /* LGSideMenuHelper.h */,
+				CA9426E77451098D66C35512F347C3F7 /* LGSideMenuHelper.m */,
+				519CC1E1FC9FA6772236D17D61FC6BF0 /* LGSideMenuSegue.h */,
+				0337DDB7CB7C06217457D2F1ADEB3FF2 /* LGSideMenuSegue.m */,
+				5ACF37B00A793AFD78AB7A9508B3A04E /* LGSideMenuView.h */,
+				56A58A26988464B77DCD7F32A9523992 /* LGSideMenuView.m */,
+				04193EE2518EF4AAA45E0B944B1C64A2 /* UIViewController+LGSideMenuController.h */,
+				10AD5350CE167549A5C8D7AB00CAFBD6 /* UIViewController+LGSideMenuController.m */,
+				F3AB0367B0F7C5FB960DBD9F78606EE7 /* Support Files */,
+			);
+			name = LGSideMenuController;
+			path = LGSideMenuController;
+			sourceTree = "<group>";
+		};
+		CA97108350FDFB54C5BAE4A7617709C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5DADE1E0EF999CBB79F91703598C9ABE /* UMCommonLog.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D216EE8F4F9E696AD96556BCD8870290 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A45834D84D8366A3A60665397F59A220 /* UMErrorCatch.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D6218DD3042A0E572E4D82D120A96F3F /* UMCCommonLog */ = {
+			isa = PBXGroup;
+			children = (
+				CA97108350FDFB54C5BAE4A7617709C2 /* Frameworks */,
+				63D99DA601AAD23FEA48A5B35840029D /* Resources */,
+			);
+			name = UMCCommonLog;
+			path = UMCCommonLog;
+			sourceTree = "<group>";
+		};
+		D8D2DE615218F5DB351B1FCB840AC98D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				31DAD1F056EFEB0370B014E73DCE82D4 /* libLGSideMenuController.a */,
+				4C2411E39D4217315A4A074460EB75B1 /* libPods-Demo.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCE11D355635208B854E6936E5D53D08 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				690FB383F5A758BA863E25F7E8AC4743 /* libjpush-ios-3.0.9.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE414E153BA45149234DC28D38EB6A03 /* JCore */ = {
+			isa = PBXGroup;
+			children = (
+				F59971688A719867226E7E4E0F7AD53F /* Frameworks */,
+			);
+			name = JCore;
+			path = JCore;
+			sourceTree = "<group>";
+		};
+		EAA5BC117BF23208CEAB9E19CF8D10D3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DDB0A614B3EB73D1DD346D2F08A1D401 /* SecurityEnvSDK.framework */,
+				854C0AE1BD7C08C34014B0F43B6C2D0F /* UTDID.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F3AB0367B0F7C5FB960DBD9F78606EE7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7895F539B8D31A30E5A23762FA195745 /* LGSideMenuController.xcconfig */,
+				FE38BE0BE1BB8D0DE75F84798CD3528B /* LGSideMenuController-dummy.m */,
+				C4A6ADD2C4B2A31F8AE141143E5396BC /* LGSideMenuController-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/LGSideMenuController";
+			sourceTree = "<group>";
+		};
+		F59971688A719867226E7E4E0F7AD53F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				57016A3D9B424502BAF7796CAA2C7EB4 /* libjcore-ios-1.2.0.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F64792801741A31D953EA71E1A34CBCA /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				105A24935BC6A33BE66754CE51C36C31 /* Pods-Demo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		44D564B0DDEDAFB86EB085EC271671E1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40193C0B4D88F726E2A766A2513CB8FD /* LGSideMenuBorderView.h in Headers */,
+				9F732FB35D317FE1C8504F58CE0120B6 /* LGSideMenuController.h in Headers */,
+				BB72524539130D85F8ED141B7465D4BB /* LGSideMenuGesturesHandler.h in Headers */,
+				267C7E498318F48575B8DB19F3ADF1A8 /* LGSideMenuHelper.h in Headers */,
+				141F6797522D0C38D0FF35023377F3B0 /* LGSideMenuSegue.h in Headers */,
+				8293E73AC81FFEEFBD13ECD18FA63867 /* LGSideMenuView.h in Headers */,
+				100586E484BAE467C65584975C50679F /* UIViewController+LGSideMenuController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1F04308B37C9E61BFBF26E8A6103375A /* LGSideMenuController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 272A1108E622AA38D4385F7B4D58595B /* Build configuration list for PBXNativeTarget "LGSideMenuController" */;
+			buildPhases = (
+				4B51E1D54EC82A179B8FA6530E8E1745 /* Sources */,
+				4D841832BF85F1FF4B429FD4157E53D2 /* Frameworks */,
+				44D564B0DDEDAFB86EB085EC271671E1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LGSideMenuController;
+			productName = LGSideMenuController;
+			productReference = 31DAD1F056EFEB0370B014E73DCE82D4 /* libLGSideMenuController.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		BB188CF8252F200C4E164BDC3349314F /* Pods-Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D13BF233C0657AE4147FEAEAE041D4D /* Build configuration list for PBXNativeTarget "Pods-Demo" */;
+			buildPhases = (
+				16F6EAF10CE52EE4ED8A002E9966E62D /* Sources */,
+				111A9E1F0485D60A60B03AEC4C4DEFD1 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3AD536E5C01D95CD69480F2459FF28BF /* PBXTargetDependency */,
+			);
+			name = "Pods-Demo";
+			productName = "Pods-Demo";
+			productReference = 4C2411E39D4217315A4A074460EB75B1 /* libPods-Demo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = D8D2DE615218F5DB351B1FCB840AC98D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F04308B37C9E61BFBF26E8A6103375A /* LGSideMenuController */,
+				BB188CF8252F200C4E164BDC3349314F /* Pods-Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16F6EAF10CE52EE4ED8A002E9966E62D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A16CD641399D76C648ECB61B814416C /* Pods-Demo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B51E1D54EC82A179B8FA6530E8E1745 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4CD8C58421A30DD1AADC3A82A02822B /* LGSideMenuBorderView.m in Sources */,
+				34F3406252A6DDC06F4DF99FBB2A4093 /* LGSideMenuController-dummy.m in Sources */,
+				38BB48D3CB5403DA9373E928F3763E39 /* LGSideMenuController.m in Sources */,
+				C82F0B9430691D82B9AE3F18930AA6D0 /* LGSideMenuGesturesHandler.m in Sources */,
+				057418C433B913BAC478375AECE06BF1 /* LGSideMenuHelper.m in Sources */,
+				9A1ECCC28DCB4B4A8027FDA86C98BD66 /* LGSideMenuSegue.m in Sources */,
+				4741F8ED7798B375CC6F95F5C075D635 /* LGSideMenuView.m in Sources */,
+				463F4FA5B164756FF41D198EC04BB966 /* UIViewController+LGSideMenuController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3AD536E5C01D95CD69480F2459FF28BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LGSideMenuController;
+			target = 1F04308B37C9E61BFBF26E8A6103375A /* LGSideMenuController */;
+			targetProxy = 9F53E975F51673CBA847E998EF33EC4F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		14F03DD86E3135832025818559A24B65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7895F539B8D31A30E5A23762FA195745 /* LGSideMenuController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/LGSideMenuController/LGSideMenuController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = LGSideMenuController;
+				PRODUCT_NAME = LGSideMenuController;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1EE19F5DD95931924296F637BF18BD8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		7B00892BF5343F3048FDF06DD878C605 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC6F318B8C726435B2FF8566E7AC50B9 /* Pods-Demo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4568DEE257655D290C2B9CEAB37C934 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		F9C671692AFF428040D1AC26CCCB3F00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E61E2F2E514A86FEC211F0AD10D8AC1 /* Pods-Demo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FFFED59E56C0A15C2975F608FB29D1C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7895F539B8D31A30E5A23762FA195745 /* LGSideMenuController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/LGSideMenuController/LGSideMenuController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = LGSideMenuController;
+				PRODUCT_NAME = LGSideMenuController;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D13BF233C0657AE4147FEAEAE041D4D /* Build configuration list for PBXNativeTarget "Pods-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9C671692AFF428040D1AC26CCCB3F00 /* Debug */,
+				7B00892BF5343F3048FDF06DD878C605 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		272A1108E622AA38D4385F7B4D58595B /* Build configuration list for PBXNativeTarget "LGSideMenuController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14F03DD86E3135832025818559A24B65 /* Debug */,
+				FFFED59E56C0A15C2975F608FB29D1C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EE19F5DD95931924296F637BF18BD8F /* Debug */,
+				F4568DEE257655D290C2B9CEAB37C934 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

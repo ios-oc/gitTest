@@ -1,0 +1,13 @@
+platform:ios, '8.0'
+
+target 'Demo' do
+    pod 'UMCCommon'
+    pod 'UMCSecurityPlugins'
+    pod 'UMCCommonLog'
+    pod 'UMCAnalytics'
+    pod 'UMCErrorCatch'
+    
+    pod 'JPush'
+    
+    pod 'LGSideMenuController'
+end
